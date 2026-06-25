@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "bashAllow": [
+    "ls ", "cat ", "head ", "tail ", "wc ", "pwd ", "echo ", "printf ", "date ",
+    "which ", "type ", "env ", "printenv ", "uname ", "whoami ", "id ",
+    "git log", "git status", "git diff", "git show", "git stash list",
+    "grep ", "rg ", "ag ", "fd ",
+    "pip show", "pip list", "npm list", "cargo metadata",
+    "df ", "du ", "free ", "top -bn", "ps "
+  ],
+  "autoBlockHeadless": true,
+  "blockTools": ["bash", "edit", "write", "ShellSession"]
+}
